@@ -17,11 +17,11 @@ install.packages("plotly")
 # Demonstração de Uso
 
 
-```{r pressure, echo=FALSE}
+```{r pressure, echo=TRUE}
 plot(table(rpois(10, 5)), type = "h", col = "red", lwd = 20,
      main = "Aluno do IF por area")
 ```
-<img src="plotlyinR/newplot.png" class="screenshot" width=800 />
+
 
 # Uso da função plot_ly()
 Fornece uma interface mais direta para o plotly original criado em javascript e com isso, podemos usufruir de tipos de gráficos mais elaborados e melhor renderizados. (EX: coordenadas paralelas, mapas, superfícies e malhas)
