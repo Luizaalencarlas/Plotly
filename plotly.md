@@ -15,7 +15,6 @@ Instalar via CRAN.
     )
     fig
 
-![](plotly_files/figure-markdown_strict/pressure-1.png)
 <img src="newplot.png" class="screenshot" width=800 />
 
 # Uso da função plot\_ly()

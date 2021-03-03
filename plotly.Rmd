@@ -28,10 +28,6 @@ fig
 ```
 
 
-```{r pressure, echo=FALSE, message=FALSE, warning=FALSE}
-plot(table(rpois(10, 5)), type = "h", col = "red", lwd = 20,
-     main = "Aluno do IF por area")
-```
 <img src="newplot.png" class="screenshot" width=800 />
 
 # Uso da função plot_ly()
