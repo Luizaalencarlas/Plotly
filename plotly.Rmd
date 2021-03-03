@@ -16,8 +16,13 @@ install.packages("plotly")
 ```
 # Demonstração de Uso
 
+```{r, eval=FALSE}
+plot(table(rpois(10, 5)), type = "h", col = "red", lwd = 20,
+     main = "Aluno do IF por area")
+```
 
-```{r pressure, echo=TRUE}
+
+```{r pressure, echo=FALSE}
 plot(table(rpois(10, 5)), type = "h", col = "red", lwd = 20,
      main = "Aluno do IF por area")
 ```
