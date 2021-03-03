@@ -1,0 +1,27 @@
+---
+title: "Plotly in R"
+author: "Raphael Alcântara, José Alfredo , Andreson Costa"
+date: "03/03/2021"
+output: md_document
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Instalação
+Instalar via CRAN.
+```{r, eval=FALSE}
+install.packages("plotly")
+```
+# Demonstração de Uso
+
+
+```{r pressure, echo=FALSE}
+plot(table(rpois(10, 5)), type = "h", col = "red", lwd = 20,
+     main = "Aluno do IF por area")
+```
+<img src="plotlyinR/newplot.png" class="screenshot" width=800 />
+
+# Uso da função plot_ly()
+Fornece uma interface mais direta para o plotly original criado em javascript e com isso, podemos usufruir de tipos de gráficos mais elaborados e melhor renderizados. (EX: coordenadas paralelas, mapas, superfícies e malhas)
