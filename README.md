@@ -7,7 +7,7 @@ Instalar via CRAN.
 # Demonstração de Uso
 
 ![](plotly_files/figure-markdown_strict/pressure-1.png)
-<img src="plotlyinR/newplot.png" class="screenshot" width=800 />
+<img src="Plotly/newplot.png" class="screenshot" width=800 />
 
 # Uso da função plot\_ly()
 
