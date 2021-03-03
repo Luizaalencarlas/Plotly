@@ -6,7 +6,15 @@ Instalar via CRAN.
 
 # Demonstração de Uso
 
-![](plotly_files/figure-markdown_strict/pressure-1.png)
+    library(plotly)
+    fig <- plot_ly(
+      x = c("Ciências Humanas", "Ciências Exatas", "Ciências Biológicas"),
+      y = c(50, 30, 15),
+      name = "Alunos do IFPE por área de ensino",
+      type = "bar"
+    )
+    fig
+
 <img src="newplot.png" class="screenshot" width=800 />
 
 # Uso da função plot\_ly()
