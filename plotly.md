@@ -9,8 +9,6 @@ Instalar via CRAN.
     plot(table(rpois(10, 5)), type = "h", col = "red", lwd = 20,
          main = "Aluno do IF por area")
 
-![](plotly_files/figure-markdown_strict/unnamed-chunk-2-1.png)
-
 ![](plotly_files/figure-markdown_strict/pressure-1.png)
 
 # Uso da função plot\_ly()
