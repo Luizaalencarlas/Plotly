@@ -16,7 +16,7 @@ install.packages("plotly")
 ```
 # Demonstração de Uso
 
-```{r, eval=FALSE}
+```{r}
 plot(table(rpois(10, 5)), type = "h", col = "red", lwd = 20,
      main = "Aluno do IF por area")
 ```
