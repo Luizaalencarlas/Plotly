@@ -49,7 +49,7 @@ usufruir de tipos de gráficos mais elaborados e melhor renderizados
 
     fig
 
-<img src="newplot2.png" class="screenshot" width=800 />
+<img src="newplot2.PNG" class="screenshot" width=800 />
 
 # Uso da função ggplotly()
 
